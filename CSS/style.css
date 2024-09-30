@@ -1,0 +1,101 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    margin-bottom: 0; /* Upewnij się, że navbar nie ma marginesu dolnego */
+}
+
+section {
+    margin: 0; /* Upewnij się, że sekcje nie mają marginesów */
+    padding: 20px 0; /* Dodaj padding do sekcji, aby zachować przestrzeń */
+}
+
+.navbar-brand {
+    color: #d5641a !important; /* Ustawia kolor napisu */
+    font-weight: bold !important; /* Ustawia czcionkę jako pogrubioną */
+}
+
+
+.navbar-brand img {
+    margin-right: 10px !important;/* Opcjonalnie: odstęp między logo a tekstem */
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 75vh; /* Automatyczne dostosowanie wysokości */
+    object-fit: cover; /* Skaluje i kadruje obraz */
+}
+
+.carousel-caption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    z-index: 10; /* Aby mieć pewność, że element jest nad zdjęciem */
+    width: 100%; /* Zapewnia, że elementy będą się rozciągać na pełnej szerokości ekranu */
+    padding: 0;
+}
+
+/* Zmniejsz rozmiar tekstu i przycisków na mniejszych ekranach */
+@media (max-width: 768px) {
+    .carousel-caption h1 {
+        font-size: 1.75rem; /* Zmniejszenie rozmiaru nagłówka */
+    }
+
+    .carousel-caption p {
+        font-size: 1rem; /* Zmniejszenie rozmiaru akapitu */
+    }
+
+    .carousel-caption a {
+        font-size: 0.875rem; /* Zmniejszenie rozmiaru przycisku */
+        padding: 0.5rem 1rem; /* Dostosowanie paddingu przycisku */
+    }
+}
+
+/* Dodatkowe zmniejszenie na bardzo małych ekranach */
+@media (max-width: 576px) {
+    .carousel-caption h1 {
+        font-size: 1.25rem;
+    }
+
+    .carousel-caption p {
+        font-size: 0.875rem;
+    }
+
+    .carousel-caption a {
+        font-size: 0.75rem;
+        padding: 0.25rem 0.5rem;
+    }
+}
+
+
+.card ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.card ul li {
+    margin-bottom: 0.5rem;
+}
+
+.jumbotron {
+    background: url('https://via.placeholder.com/1920x1080') no-repeat center center;
+    background-size: cover;
+    color: white;
+}
+
+#wynajem {
+    background-color: #444;
+}
+
+#wynajem h2, #wynajem p {
+    color: white;
+}
