@@ -48,7 +48,7 @@ Strona internetowa dla lokalnego serwisu samochodowego, zlokalizowanego w Lublin
 ## Autor
 
 - **Projektant strony**: Paweł Jabłoniec
-- **Firma**: Serwis Samochodowy DZIUBIŃSKI PIOTR
+- **Dla firmy**: Serwis Samochodowy DZIUBIŃSKI PIOTR
 
 ## Licencja
 
